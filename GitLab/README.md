@@ -14,8 +14,6 @@
   }
 </style>
 
-# Gitlab
-
 <div class="flex-container">
   <div class="box">Introduction</div>
   <div class="box">Repos</div>
