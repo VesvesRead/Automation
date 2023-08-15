@@ -1,24 +1,25 @@
-# Gitlab
+<style>
+  .flex-container {
+    display: flex;
+  }
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div>
-    <h1>Introduction</h1>
-    <p>Getting started?</p>
-  </div>
-  <div>
-    <h1>Repositories</h1>
-    <p>Getting started?</p>
-  </div>
-  <div>
-    <h1>Groups</h1>
-    <p>Getting started?</p>
-  </div>
-  <div>
-    <h1>Runners</h1>
-    <p>Getting started?</p>
-  </div>
-  <div>
-    <h1>Pipelines</h1>
-    <p>Getting started?</p>
-  </div>
+  .box {
+    flex: 1;
+    padding: 20px;
+    transition: flex-grow 0.3s;
+  }
+
+  .box:hover {
+    flex-grow: 2;
+  }
+</style>
+
+# Gitlab
+```html
+<div class="flex-container">
+  <div class="box">Introduction</div>
+  <div class="box">Repos</div>
+  <div class="box">Groups</div>
+  <div class="box">Runners</div>
+  <div class="box">Pipelines</div>
 </div>
