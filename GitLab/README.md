@@ -1,6 +1,6 @@
 # Gitlab
 
-<div style="display: flex">
+<div style="display: flex;">
   <div>
     <h1>Introduction</h1>
     <p>Getting started?</p>
